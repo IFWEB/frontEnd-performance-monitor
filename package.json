@@ -1,0 +1,23 @@
+{
+  "name": "monitorjs",
+  "version": "1.0.0",
+  "description": "真实的客户端性能监控",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFWEB/monitorjs.git"
+  },
+  "keywords": [
+    "monitor",
+    "web"
+  ],
+  "author": "decadeken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFWEB/monitorjs/issues"
+  },
+  "homepage": "https://github.com/IFWEB/monitorjs#readme"
+}
