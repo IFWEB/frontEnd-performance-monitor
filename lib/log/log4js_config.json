@@ -3,8 +3,15 @@
         [  
             {  
                 "type":"console",  
-                "category":"console"  
+                "category":"log_console"  
             },  
+            {
+               "category": "log_access",
+               "type": "DateFile",
+               "filename": "./logs/log_access/access.log",
+               "pattern": "-yyyy-MM-dd.log",
+               "alwaysIncludePattern": true
+            },
             {  
                 "category":"log_file",  
                 "type": "file",  
@@ -15,16 +22,20 @@
             {  
                 "category":"log_date",  
                 "type": "dateFile",  
-                "filename": "./logs/log_date/date",  
+                "filename": "./logs/log_date/date.log",  
                 "alwaysIncludePattern": true,  
                 "pattern": "-yyyy-MM-dd-hh.log"  
             }  
         ],  
-        "replaceConsole": true,  
+
+    "replaceConsole": true,  
+
     "levels":  
     {  
-        "log_file":"ALL",  
-        "console":"ALL",  
-        "log_date":"ALL"  
+        "log_access": "INFO", 
+        "log_file": "TRACE",  
+        "log_date": "ALL",
+        "log_console": "ALL"
     }  
+
 }  
