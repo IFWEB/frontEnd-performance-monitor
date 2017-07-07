@@ -1,6 +1,0 @@
-[2017-07-05 16:41:04.255] [INFO] log_access - info
-[2017-07-05 16:41:04.257] [ERROR] log_access - error
-[2017-07-05 16:41:11.608] [INFO] log_access - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2017-07-05 16:41:12.098] [INFO] log_access - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2017-07-05 16:41:12.340] [INFO] log_access - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2017-07-05 16:41:12.526] [INFO] log_access - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
